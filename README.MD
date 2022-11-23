@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/Eliel0328/2021-B065-Extension">
     <img src="./icon/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -11,12 +11,12 @@
   Trabajo Terminal 2021-B065: Detector de texto ofensivo durante la navegación Web - Extension</h3>
 
   <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template"><strong>Revisar documento técnico »</strong></a>
+  <a href="https://github.com/Eliel0328/2021-B065-Extension"><strong>Revisar documento técnico »</strong></a>
   <br>
   <br>
-  <a href="https://github.com/othneildrew/Best-README-Template/issues">Reportar Error</a>
+  <a href="https://github.com/Eliel0328/2021-B065-Extension/issues">Reportar Error</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Solicitar Función</a>
+    <a href="https://github.com/Eliel0328/2021-B065-Extension/issues">Solicitar Función</a>
   </p>
 </div>
 
@@ -49,9 +49,7 @@
 ## Acerca del Proyecto
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://3.bp.blogspot.com/-mQ86eCKOo7g/V5sOHC_mu1I/AAAAAAAA8dU/gHBzNVoWsDEuUU0UIfU04lHNhYA2JHg9ACLcB/s1600/s-321.gif" alt="Screen_shoot">
-  </a>
+    <img src="icon/screen_shot.gif" alt="Screen_shoot">
 </div>
 
 <p style="text-align: justify;">
@@ -92,7 +90,7 @@ En esta sección se listan los principales frameworks utilizados para el arranqu
 -   ![NodeJS](https://img.shields.io/badge/node.js-Axios-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -116,9 +114,7 @@ _A continuación se muestran algunas opciones del proceso de instalación_
 1. Descargar la extensión de este repositorio usando la opción de `Download ZIP` en la sección de Code de arriba.
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="icon/step_1.png" alt="step 1">
-  </a>
 </div>
 
 2. Descomprimir el archivo descargado. Es recomendado usar 
@@ -129,38 +125,30 @@ _A continuación se muestran algunas opciones del proceso de instalación_
 - `chrome://extensions/`
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="icon/step_3.png" alt="Step 3">
-  </a>
 </div>
 
 4. Una vez ingresando a la dirección se debe activar el modo desarrollador en la esquina superior derecha.
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="icon/step_4.png" alt="Step 4">
-  </a>
 </div>
 
 4. Se debe seleccionar la opción de cargar extensión sin empaquetar.
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="icon/step_5.png" alt="Step 5">
-  </a>
 </div>
 
 
 5. Se nos mostrara la opción de subir la extensión para lo cual debemos seleccionar la carpeta del archivo descomprimido. Al finalizar esta acción podra ver la extension con el resto de extensiones disponibles en el navegador.
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="icon/step_6.png" alt="Step 6">
-  </a>
 </div>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
 
 ## Manual de Uso
@@ -174,29 +162,23 @@ Para hacer uso de la extensión es necesario iniciar sesión.
 1. En parte superior derecha del navegador podra ver un botón que permite mostrar el listado de las extensiones. Se debe seleccionar la extensión y posteriormente iniciar sesión con los datos solicitados.
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="icon/step_7.png" alt="Step 1">
-  </a>
 </div>
 
 - Con la sesión iniciada el mensaje que vera será el siguiente (Lo que indica que la extensión esta activa).
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="icon/step_8.png" alt="Step 1">
-  </a>
 </div>
 
 
 - El siguiente mensaje se muestra en caso de que exista un error de conexión.
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="icon/step_9.png" alt="Step 1">
-  </a>
 </div>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
 
