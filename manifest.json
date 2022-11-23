@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "2021-B065: Extension",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content/script.js"]
+        }
+    ],
+    "background": {
+        "page": "background/background.html"
+    },
+    "permissions": ["webNavigation", "tabs", "activeTab"],
+    "browser_action": {
+        "default_icon": "icon/logo.png",
+        "default_popup": "popUp/index.html",
+        "default_title": "2021-B065: Extension"
+    },
+    "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.1/socket.io.js; object-src 'self'",
+    "incognito": "split"
+}

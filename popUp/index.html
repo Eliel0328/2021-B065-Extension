@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+
+        <!-- Login -->
+        <div id="login">
+            <form class="" method="post">
+                <!-- Informacion  -->
+                <div class="text-container">
+                    <h1>Iniciar sesion</h1>
+                </div>
+                <div class="text-container">
+                    <p>Todavia no tienes acceso a la extension web,
+                        por favor introduzca su correo electronico y
+                        constraseña</p>
+                </div>
+                <!-- Inputs -->
+                <div class="container">
+                    <div class="div-input">
+                        <label for="uname"><b>Correo electronico</b></label>
+                        <input id="emailInput" type="text" placeholder="Ingrese su correo electronico" name="uname"
+                            required>
+                        <label class="danger d-none" id="msgWrongEmail">
+                            Ingrese una direccion de correo valida
+                        </label>
+                    </div>
+                    <div class="div-input">
+                        <label for="psw"><b>Constraseña</b></label>
+                        <input id="passwordInput" type="password" placeholder="Ingrese su contraseña" name="psw"
+                        required>
+                        <label class="danger d-none" id="msgWrongPassword">
+                            La contraseña ingresada debe tener un minimo de 8 caracteres, una
+                            minuscula, una mayuscula y caracter espacial
+                        </label>
+                    </div>
+                    <div class="div-input">
+                        <label class="danger d-none" id="msgWrongCredential">
+                            <b>Datos erroneos, verificar su email y contraseña</b>
+                        </label>
+                    </div>
+                    <button type="submit" id="submitBtn">Login</button>
+                </div>
+
+                <!-- Olvido su contraseña -->
+                <div class="container" style="background-color:#f1f1f1">
+                    <span class="psw">Olvido su <a href="http://localhost:3000/login"
+                            target="_blank">contraseña</a></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- Mensaje de error en la conexion de la extension -->
+        <div id="msgError" class="div-error d-none">
+            <div class="text-container">
+                <h1>Error de conexión</h1>
+            </div>
+            <div class="text-container">
+                <label class="" id="msgWrongPassword">
+                    <b>La extensión ha encontrado un error y no puede funcionar correctamente</b>
+                </label>
+            </div>
+            <div class="img-container">
+                <img src="../icon/advertencia.png" alt="Icono" class="avatar" srcset="">
+            </div>
+        </div>
+
+        <!-- Mensaje de extension activa -->
+        <div id="msgActiva" class="div-activa d-none">
+            <div class="text-container">
+                <h1>Extensión activa</h1>
+            </div>
+            <div class="text-container">
+                <label class="" id="msgWrongPassword">
+                    <b>
+                        Monitoreando contenido
+                    </b>
+                </label>
+            </div>
+            <div class="img-container">
+                <img src="../icon/laptop.png" alt="Icono" class="avatar" srcset="">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script/script.js"></script>
+<script src="script/estadosExtension.js"></script>
+<script src="../axios/axios.min.js"></script>
+
+</html>
