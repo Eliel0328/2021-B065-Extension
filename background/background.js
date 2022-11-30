@@ -18,6 +18,10 @@ socket.on('connect_error', (err) => {
 // Enviar un mensaje para mostrar un estado activo en el emergente
 socket.on('connect', function () {
     sendResponseToPopUp('connection-active', {});
+
+    socket.emit('mensaje-bienvenida', {
+        user: usuario,
+    });
 });
 
 // Enviar el texto usando socket.io al servidor web
@@ -82,6 +86,10 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
 
         setConfig();
         sendResponse(true);
+
+        socket.emit('mensaje-bienvenida', {
+            user,
+        });
     }
 
     //   Mensaje del PopUp
