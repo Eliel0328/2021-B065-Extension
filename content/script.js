@@ -35,11 +35,17 @@ const separarContenido = (text) => {
         return element.length > 1;
     });
 
-    return aux3;
+    let aux4 = aux3.filter((element) => {
+        return element.split(' ').length >= 5;
+    });
+
+    return aux4
 };
 
 //  Funcion para enviar el texto al background
 const sentTextToBackground = (text) => {
+    console.log(separarContenido(text));
+
     if (text.length > 0) {
         let msg = {
             type: 'TEXT',
