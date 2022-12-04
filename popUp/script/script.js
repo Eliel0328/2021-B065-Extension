@@ -5,8 +5,8 @@ let submitBtn = document.getElementById('submitBtn');
 let forgotBtn = document.getElementById('forgotBtn');
 
 //  Base de URL para las peticiones axios
-const BASE_URL = 'http://localhost:8080';
-// const BASE_URL = 'http://20.102.59.206:8080';
+// const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'http://20.102.59.206:8080';
 
 //  Comprobar que sea un email valido
 const checkEmail = (email) => {

@@ -1,8 +1,8 @@
 console.log('background is running');
 
 // Direccion de servidor
-const socket = io('http://localhost:8080/');
-// const socket = io('http://20.102.59.206:8080/');
+// const socket = io('http://localhost:8080/');
+const socket = io('http://20.102.59.206:8080/');
 
 //  Variables de usuario
 let usuario = null;
