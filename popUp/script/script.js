@@ -5,7 +5,8 @@ let submitBtn = document.getElementById('submitBtn');
 let forgotBtn = document.getElementById('forgotBtn');
 
 //  Base de URL para las peticiones axios
-const BASE_URL = 'http://20.102.59.206:8080/';
+const BASE_URL = 'http://localhost:8080';
+// const BASE_URL = 'http://20.102.59.206:8080';
 
 //  Comprobar que sea un email valido
 const checkEmail = (email) => {
@@ -62,6 +63,7 @@ submitBtn.addEventListener('click', (e) => {
 //  Verfificar e iniciar sesion
 const getTodoItems = async (loginData) => {
     try {
+        console.log(loginData);
         const resultado = await axios.post(`${BASE_URL}/login`, loginData);
         console.log(resultado.data);
         let credential = {
