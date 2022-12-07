@@ -44,8 +44,6 @@ const separarContenido = (text) => {
 
 //  Funcion para enviar el texto al background
 const sentTextToBackground = (text) => {
-    console.log(separarContenido(text));
-
     if (text.length > 0) {
         let msg = {
             type: 'TEXT',
