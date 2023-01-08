@@ -76,8 +76,18 @@ document.onclick = function (event) {
     // Compensate for IE<9's non-standard event model
     if (event === undefined) event = window.event;
     var target = 'target' in event ? event.target : event.srcElement;
-
-    getTextFromPage(document.body.innerText);
+    if (html.getAttribute('lang') === 'es') {
+        //console.log('El idioma de la pagina es el español');
+        getTextFromPage(document.body.innerText);
+    } else {
+        //console.log('El idioma del navegador no es el español');
+}
+    
 };
 
-getTextFromPage(document.body.innerText);
+if (html.getAttribute('lang') === 'es') {
+    //console.log('El idioma del navegador es el español');
+    getTextFromPage(document.body.innerText);
+} else {
+        //console.log('El idioma de la pagina no es el español');
+}
