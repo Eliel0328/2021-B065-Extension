@@ -2,7 +2,7 @@ console.log('Content Script is Running');
 
 //  Variables para comparar el contenido
 let originalText = 'orig';
-
+const html = document.querySelector('html');
 //  Funcion para limpiar contenido usando expresiones regulares
 const separarContenido = (text) => {
     // Quitar pesos, fechas, horas, caracteres especiales
